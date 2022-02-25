@@ -9,9 +9,8 @@
 </ul>
 
 <div>
-  <label for="new-hero">Hero name: </label>
+  <label for="new-hero">New hero: </label>
   <input id="new-hero" #heroName />
-
   <button type="button" class="add-button" (click)="add(heroName.value); heroName.value=''">
     Add hero
   </button>

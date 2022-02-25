@@ -1,0 +1,25 @@
+label {
+  color: #435960;
+  font-weight: bold;
+}
+input {
+  font-size: 1em;
+  padding: 0.5rem;
+}
+button {
+  margin-top: 20px;
+  margin-right: 1rem;
+  width: 6.5rem;
+  background-color: #eeeeee;
+  padding: 0.65rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eeeeee;
+  color: #cccccc;
+  cursor: auto;
+}
